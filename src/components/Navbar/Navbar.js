@@ -2,12 +2,14 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import "../../App.scss";
 
+
 const Navbar = () => {
+
   return (
     <nav  className="navbar navbar-expand-lg navbar-light bg-success fixed-bottom">
       <div className="container">
         <Link to="/" className="navbar-brand fs-3 active1">
-          Rick & Morty <span className="text-primary ">Fandom</span>
+          Rick & Morty <span className="text-info ">Fandom</span>
         </Link>
         <style jsx>{`
           button[aria-expanded="false"] > .close {

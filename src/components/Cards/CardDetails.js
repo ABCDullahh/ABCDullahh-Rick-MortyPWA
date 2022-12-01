@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import styles from "./Cards.module.scss";
 
 const CardDetails = () => {
   let { id } = useParams();
@@ -17,8 +18,8 @@ const CardDetails = () => {
   }, [api]);
 
   return (
-    <div className="container d-flex justify-content-center mb-5">
-      <div className="d-flex flex-column gap-3">
+    <div className="container d-flex justify-content-center mb-5 ">
+      <div className={`${styles.cardsstatus} d-flex flex-column gap-3`} >
         <h1 className="text-center">{name}</h1>
 
         <img className="img-fluid" src={image} alt="" />
@@ -31,7 +32,7 @@ const CardDetails = () => {
             return <div className="badge bg-secondary fs-5">{status}</div>;
           }
         })()}
-        <div className="content">
+        <div className="content fw-bold">
           <div className="">
             <span className="fw-bold">Gender : </span>
             {gender}

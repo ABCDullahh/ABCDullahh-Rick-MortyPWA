@@ -24,7 +24,7 @@ const Cards = ({ page, results }) => {
             <div className={`${styles.content}`}>
               <div className="fs-4 fw-bold mb-4 ">{name}</div>
               <div className="">
-                <div className="fs-6 fw-normal ">Last Location</div>
+                <div className="fs-6 fw-bold ">Last Location :</div>
                 <div className="fs-4">{location.name}</div>
               </div>
             </div>
