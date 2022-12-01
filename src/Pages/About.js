@@ -35,7 +35,7 @@ function About() {
             </a>{" "}
             </h4>
 
-            <a href="https://github.com/ABCDullahh/rickandmorty">
+            <a href="https://github.com/ABCDullahh/ABCDullahh-Rick-MortyPWA">
               <img className="imggit" src="images/giticon.png" alt=""></img>
             </a>
           </div>
