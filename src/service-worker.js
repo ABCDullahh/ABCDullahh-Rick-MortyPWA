@@ -70,3 +70,11 @@ self.addEventListener('message', (event) => {
 });
 
 // Any other custom service worker logic can go here.
+
+registerRoute(
+  ({ url }) =>
+    url.origin === 'https://rickandmortyapi.com/' || url.pathname === '/api/character',
+  new StaleWhileRevalidate({
+    cacheName: 'rickandmorty'
+  })
+);

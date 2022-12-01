@@ -1,0 +1,63 @@
+$radius : 10px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+
+
+.top1 {
+  color: #e600ff !important;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  -webkit-text-stroke: 1px black
+  
+}
+
+
+.img {
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.imggit {
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+
+h2{
+  margin-bottom: 8px;
+}
+
+.subtitle{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 24px;
+}
+
+.about-info p{
+  margin-bottom: 8px;
+}
+
+
+
+.fonts {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+body {
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2022/06/08/rick-n-morty-wallpaper.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1920px 1080px;
+  
+}
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+$radius : 10px;
+
+.cards {
+    border: 4px solid #0b5ed7;
+    border-radius: $radius;
+	background: #49d8f8b9;
+	font-family: 'Poppins', sans-serif;
+}
+
+.img{
+	border-radius: $radius $radius 0 0;
+}
+
+.badge{
+	top: 15px;
+	right: 30px;
+	font-size: 17px;
+}
+
+.gender{
+	top: 50px;
+	right: 30px;
+	font-size: 17px;
+}
+
+
