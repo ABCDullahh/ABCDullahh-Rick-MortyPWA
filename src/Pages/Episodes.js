@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Cards from "../components/Cards/Cards";
 import InputGroup from "../components/Filters/Category/InputGroup";
+import "./styling.scss"
 
 const Episodes = () => {
   let [results, setResults] = React.useState([]);
@@ -25,9 +26,9 @@ const Episodes = () => {
   }, [api]);
 
   return (
-    <div className="container">
-      <div className="row mb-3">
-        <h1 className="text-center mb-3">
+    <div className="container ">
+      <div className="row mb-3 borderwhite1">
+        <h1 className="text-center mb-3 ">
           Episode name :{" "}
           <span className="text-warning">{name === "" ? "Unknown" : name}</span>
         </h1>
