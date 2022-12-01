@@ -4,7 +4,7 @@ import "../../App.scss";
 
 const Navbar = () => {
   return (
-    <nav  className="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
+    <nav  className="navbar navbar-expand-lg navbar-light bg-success fixed-bottom">
       <div className="container">
         <Link to="/" className="navbar-brand fs-3 active1">
           Rick & Morty <span className="text-primary ">Fandom</span>
